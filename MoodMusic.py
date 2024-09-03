@@ -10,12 +10,7 @@ from spotipy import oauth2
 import time
 
 
-PORT_NUMBER = 8080
-SPOTIPY_CLIENT_ID = '5e38362c53e647ff8a3d62e242626e3c'
-SPOTIPY_CLIENT_SECRET = '490ea6cdd2454ade9f25783489c21e72'
-SPOTIPY_REDIRECT_URI = 'http://localhost:8080'
-SCOPE = 'user-top-read'
-CACHE = '.spotipyoauthcache'
+# where tokens would go
 
 topArtistURLs = []
 topGenres = []
